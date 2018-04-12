@@ -18,7 +18,7 @@ namespace BenProject.Infrastructure.Data.Repository
             }
         }
 
-        public List<Family> Get()
+        public List<Family> GetFamilies()
         {
             try
             {
