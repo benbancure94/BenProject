@@ -9,7 +9,7 @@ namespace BenProject.WebApplication.MVC.Helper
 {
     public class ModelConverter
     {
-        public List<FamilyViewModel> ToFamilyViewModel(List<Family> families)
+        public static List<FamilyViewModel> ToFamilyViewModel(List<Family> families)
         {
             try
             {

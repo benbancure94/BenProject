@@ -1,0 +1,23 @@
+﻿@model List<BenProject.WebApplication.MVC.Models.FamilyViewModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table>
+    <tr>
+        <th>Family Name</th>
+        <th>No. of Members</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.MemberCount</td>
+        </tr>
+    }
+</table>
+
+
